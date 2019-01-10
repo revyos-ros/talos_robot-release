@@ -1,0 +1,13 @@
+Source: ros-melodic-talos-description-calibration
+Section: misc
+Priority: extra
+Maintainer: Victor Lopez <victor.lopez@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-talos-description-calibration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-xacro
+Description: This package contains the description of the hand-eye calibration of the TALOS robot.
+ The files in this package are used also from the talos_description package.
