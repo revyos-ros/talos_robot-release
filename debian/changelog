@@ -1,0 +1,468 @@
+ros-kinetic-talos-description-inertial (1.0.45-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 19 Dec 2018 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.44-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 28 Nov 2018 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.43-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 21 Nov 2018 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.42-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 20 Nov 2018 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.41-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 19 Nov 2018 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.40-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 01 Nov 2018 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.39-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 24 Oct 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.38-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 23 Oct 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.37-1xenial) xenial; urgency=high
+
+  * Merge branch 'as_self_coll_merge_test' into as_sim_self_collisions
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 22 Oct 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.36-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 17 Oct 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.35-1xenial) xenial; urgency=high
+
+  * deleted changelogs
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 16 Oct 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.34-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: Jordan Palacios
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 27 Sep 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.33-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 26 Sep 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.32-1xenial) xenial; urgency=high
+
+  * Updated changelogs
+  * Contributors: Jordan Palacios
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 24 Sep 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.31-1xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 11 Sep 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.30-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 05 Sep 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.29-1xenial) xenial; urgency=high
+
+  * update changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 03 Sep 2018 18:05:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.28-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 03 Sep 2018 08:22:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.27-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 27 Aug 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.26-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 23 Aug 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.25-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 01 Aug 2018 13:05:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.24-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 01 Aug 2018 13:03:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.23-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Sun, 29 Jul 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.22-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 25 Jul 2018 16:04:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.21-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 25 Jul 2018 13:16:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.20-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 24 Jul 2018 15:10:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.19-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 24 Jul 2018 09:02:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.18-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 18 Jul 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.17-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Sun, 15 Jul 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.16-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 11 Jul 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.15-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 10 Jul 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.14-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 09 Jul 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.13-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Sun, 08 Jul 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.12-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 04 Jul 2018 18:59:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.11-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 04 Jul 2018 10:15:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.10-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 04 Jul 2018 08:27:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.9-1xenial) xenial; urgency=high
+
+  * Updated changelog
+  * Contributors: alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 20 Jun 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.8-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Merge branch 'as_fixes' into 'erbium-devel'
+    As fixes
+    See merge request robots/talos_robot!21
+  * Fix typo in rgbd_link_inertial
+  * Contributors: Hilario Tome, alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 19 Jun 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.7-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 19 Jun 2018 09:08:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.6-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 18 Jun 2018 22:30:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.5-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 14 Jun 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.4-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 11 Jun 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.3-1xenial) xenial; urgency=high
+
+  * Update changelog
+  * Contributors: Luca Marchionni
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 28 May 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.2-1xenial) xenial; urgency=high
+
+  * updated changelog
+  * Contributors: Hilario Tome
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 17 Apr 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.1-1xenial) xenial; urgency=high
+
+  * Update changelog
+  * Contributors: Victor Lopez
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 12 Apr 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (1.0.0-1xenial) xenial; urgency=high
+
+  * updated changelogs
+  * updated changelog
+  * fixed talos_description_inertial package version
+  * Merge branch 'as_identification' into 'erbium-devel'
+    revised inertial parameters + other fixes)
+    See merge request robots/talos_robot!12
+  * Inertials in a separate package. [dubnium compatibility is lost!]
+  * Contributors: Hilario Tome, alexandersherikov
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 11 Apr 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.24-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 03 Apr 2018 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.23-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Sun, 18 Feb 2018 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.22-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Fri, 10 Nov 2017 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.21-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 09 Nov 2017 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.20-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 10 Aug 2017 14:33:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.19-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 10 Aug 2017 10:41:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.18-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 25 Jul 2017 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.17-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.16-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 16 Feb 2017 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.15-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 15 Nov 2016 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.14-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 15 Nov 2016 17:27:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.13-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 15 Nov 2016 12:10:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.12-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 15 Nov 2016 09:01:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.11-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Sat, 12 Nov 2016 13:09:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.10-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Sat, 12 Nov 2016 11:48:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.9-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Sat, 12 Nov 2016 10:14:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.8-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 10 Nov 2016 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.7-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 10 Nov 2016 17:45:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.6-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 10 Nov 2016 17:16:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.5-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Thu, 10 Nov 2016 11:06:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.4-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 08 Nov 2016 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.3-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Sun, 30 Oct 2016 23:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.2-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Wed, 12 Oct 2016 22:00:00 -0000
+
+ros-kinetic-talos-description-inertial (0.0.1-1xenial) xenial; urgency=high
+
+
+
+ -- Alexander Sherikov <alexander.sherikov@pal-robotics.com>  Tue, 11 Oct 2016 22:00:00 -0000
+
+

@@ -1,0 +1,12 @@
+Source: ros-kinetic-talos-description-inertial
+Section: misc
+Priority: extra
+Maintainer: Alexander Sherikov <alexander.sherikov@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-talos-description-inertial
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-xacro
+Description: Inertial parameters of talos
