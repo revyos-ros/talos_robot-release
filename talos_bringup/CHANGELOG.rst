@@ -2,6 +2,204 @@
 Changelog for package talos_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.1 (2024-09-26)
+------------------
+
+2.0.0 (2024-09-18)
+------------------
+* Merge branch 'ros2-migration' into 'humble-devel'
+  Ros2 migration
+  See merge request robots/talos_robot!130
+* Change from the robot_utils to CommonArgs in launch_pal
+* Propagate arg from gazebo launch to robot_state_publisher
+* Merge branch 'tpe/joy_linux_fix' into 'ros2-migration'
+  Add the fix Joy_linux node and default device
+  See merge request robots/talos_robot!132
+* Add the fix Joy_linux node and default device
+* removed the unused hardware config files
+* fix yaml formatting
+* update all the talos motions with the script
+* fix twist mux
+* fix bringup_controllers
+* enable play_motion2
+* working version with default position controllers
+* migrate all the basic launch files
+* configs file bringup + motions
+* migration of CMakeLists.txt and package.xml to ros2 - bringup
+* Contributors: Adrià Roig, Maximilien Naveau, Sai Kishor Kothakota, ileniaperrella, thomas.peyrucain
+
+1.1.30 (2023-11-08)
+-------------------
+* Merge branch 'play_motion_carry' into 'erbium-devel'
+  Add play motions related to carrying weight and boxes
+  See merge request robots/talos_robot!127
+* Add play motions related to carrying weight and boxes
+* Contributors: Adria Roig, Pierre Fernbach
+
+1.1.29 (2023-10-24)
+-------------------
+* Merge branch 'change_license_to_apache' into 'erbium-devel'
+  change public license to Apache License 2.0
+  See merge request robots/talos_robot!126
+* change public license to Apache License 2.0
+* Contributors: Jordan Palacios, Sai Kishor Kothakota
+
+1.1.28 (2023-02-07)
+-------------------
+
+1.1.27 (2023-01-18)
+-------------------
+
+1.1.26 (2022-10-13)
+-------------------
+
+1.1.25 (2022-09-19)
+-------------------
+* Merge branch 'pierre.fernbach-erbium-devel-patch-78692' into 'erbium-devel'
+  Add new play_motion: picture poses
+  See merge request robots/talos_robot!116
+* Add new play_motion: picture poses
+* Contributors: Adria Roig, Pierre Fernbach
+
+1.1.24 (2022-04-20)
+-------------------
+
+1.1.23 (2022-03-02)
+-------------------
+* Merge branch 'add_flexibility' into 'erbium-devel'
+  Add flexibility
+  See merge request robots/talos_robot!112
+* Add robot_description argument to talos_bringup and follow it to moveit launch file
+* Contributors: Pierre Fernbach, saikishor
+
+1.1.22 (2022-02-22)
+-------------------
+* Merge branch 'wrist_zero' into 'erbium-devel'
+  Add procedure to make to zero of the wrist FT sensors
+  See merge request robots/talos_robot!113
+* Add motion to put the arms down with wrist aligned to -z axis in talos_motion.yaml
+* Contributors: Jordan Palacios, Pierre Fernbach
+
+1.1.21 (2021-12-01)
+-------------------
+
+1.1.20 (2021-11-17)
+-------------------
+
+1.1.19 (2021-08-26)
+-------------------
+
+1.1.18 (2021-05-26)
+-------------------
+
+1.1.17 (2021-03-05)
+-------------------
+
+1.1.16 (2020-11-13)
+-------------------
+
+1.1.15 (2020-08-01)
+-------------------
+
+1.1.14 (2020-07-30)
+-------------------
+
+1.1.13 (2020-07-30)
+-------------------
+
+1.1.12 (2020-07-21)
+-------------------
+
+1.1.11 (2020-07-21)
+-------------------
+* Merge branch 'talos_6' into 'erbium-devel'
+  Add simulation arg for bringup
+  See merge request robots/talos_robot!97
+* Add simulation arg for bringup
+* Contributors: Adria Roig
+
+1.1.10 (2020-07-15)
+-------------------
+
+1.1.9 (2020-07-14)
+------------------
+* Merge branch 'squat' into 'erbium-devel'
+  Add squat motion for UAT
+  See merge request robots/talos_robot!95
+* Add squat motion for UAT
+* Contributors: Adria Roig, victor
+
+1.1.8 (2020-07-13)
+------------------
+
+1.1.7 (2020-07-02)
+------------------
+
+1.1.6 (2020-06-29)
+------------------
+
+1.1.5 (2020-05-08)
+------------------
+* Merge branch 'revert_introspection' into 'erbium-devel'
+  Revert "added introspection_controller launch to bringup"
+  See merge request robots/talos_robot!90
+* Revert "added introspection_controller launch to bringup"
+  This reverts commit d81d7d5dd0ee6f46339534086b90093f5f44dc8c.
+* Contributors: Sai Kishor Kothakota, victor
+
+1.1.4 (2020-05-06)
+------------------
+* Merge branch 'introspection_controller' into 'erbium-devel'
+  added introspection_controller launch to bringup
+  See merge request robots/talos_robot!89
+* added introspection_controller launch to bringup
+* Contributors: Sai Kishor Kothakota, victor
+
+1.1.3 (2020-03-05)
+------------------
+* Merge branch 'talos_specific_addons' into 'erbium-devel'
+  Talos specific addons
+  See merge request robots/talos_robot!86
+* add new bringup_addons launch for talos specific
+* Contributors: Sai Kishor Kothakota, jordanpalacios
+
+1.1.2 (2020-01-14)
+------------------
+
+1.1.1 (2020-01-14)
+------------------
+
+1.1.0 (2020-01-10)
+------------------
+
+1.0.52 (2019-11-29)
+-------------------
+* Merge branch 'add_legs_to_play_motion' into 'erbium-devel'
+  add move groups for legs
+  See merge request robots/talos_robot!78
+* add move groups for legs
+* Contributors: Luca Marchionni
+
+1.0.51 (2019-07-15)
+-------------------
+
+1.0.50 (2019-07-10)
+-------------------
+
+1.0.49 (2019-05-30)
+-------------------
+
+1.0.48 (2019-03-27)
+-------------------
+
+1.0.47 (2019-03-19)
+-------------------
+
+1.0.46 (2019-03-07)
+-------------------
+* Change license to LGPL-3.0
+* Contributors: Victor Lopez
+
 1.0.45 (2018-12-20)
 -------------------
 * Merge branch 'move-dependencies' into 'erbium-devel'

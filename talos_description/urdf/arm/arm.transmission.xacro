@@ -12,14 +12,11 @@
 
   <xacro:macro name="talos_arm_simple_transmission" params="name side number reduction offset_value" >
     <transmission name="${name}_${side}_${number}_trans">
-      <type>transmission_interface/SimpleTransmission</type>
-      <actuator name="${name}_${side}_${number}_motor" >
-        <mechanicalReduction>${reduction}</mechanicalReduction>
-      </actuator>
-      <joint name="${name}_${side}_${number}_joint">
+      <plugin>transmission_interface/SimpleTransmission</plugin>
+      <actuator name="${name}_${side}_${number}_actuator" role="actuator1"/>
+      <joint name="${name}_${side}_${number}_joint" role="joint1">
         <offset>${offset_value}</offset>
-        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-        <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        <mechanical_reduction>${reduction}</mechanical_reduction>
       </joint>
     </transmission>
   </xacro:macro>

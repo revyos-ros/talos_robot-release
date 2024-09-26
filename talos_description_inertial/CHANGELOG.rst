@@ -2,6 +2,150 @@
 Changelog for package talos_description_inertial
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.1 (2024-09-26)
+------------------
+
+2.0.0 (2024-09-18)
+------------------
+* Merge branch 'ros2-migration' into 'humble-devel'
+  Ros2 migration
+  See merge request robots/talos_robot!130
+* add force sensor at the feet
+* Try to add the ankle FT sensors for Talos and connect them to ros2_control
+* update inertia signs
+* working version with default position controllers
+* visualization of the arm right model
+* config files for talos_description
+* migration of CMakeLists.txt and package.xml to ros2 -
+  description_inertial
+* Contributors: Maximilien Naveau, Sai Kishor Kothakota, ileniaperrella
+
+1.1.30 (2023-11-08)
+-------------------
+
+1.1.29 (2023-10-24)
+-------------------
+* Merge branch 'change_license_to_apache' into 'erbium-devel'
+  change public license to Apache License 2.0
+  See merge request robots/talos_robot!126
+* change public license to Apache License 2.0
+* Contributors: Jordan Palacios, Sai Kishor Kothakota
+
+1.1.28 (2023-02-07)
+-------------------
+
+1.1.27 (2023-01-18)
+-------------------
+
+1.1.26 (2022-10-13)
+-------------------
+
+1.1.25 (2022-09-19)
+-------------------
+
+1.1.24 (2022-04-20)
+-------------------
+
+1.1.23 (2022-03-02)
+-------------------
+
+1.1.22 (2022-02-22)
+-------------------
+
+1.1.21 (2021-12-01)
+-------------------
+* revert the changes of the inertias in the head
+* Contributors: Sai Kishor Kothakota
+
+1.1.20 (2021-11-17)
+-------------------
+* Merge branch 'uedin_markers' into 'erbium-devel'
+  Make modifications for the UEDIN markers
+  See merge request robots/talos_robot!111
+* Make modifications for the UEDIN markers
+* Contributors: Adria Roig
+
+1.1.19 (2021-08-26)
+-------------------
+
+1.1.18 (2021-05-26)
+-------------------
+
+1.1.17 (2021-03-05)
+-------------------
+
+1.1.16 (2020-11-13)
+-------------------
+
+1.1.15 (2020-08-01)
+-------------------
+
+1.1.14 (2020-07-30)
+-------------------
+
+1.1.13 (2020-07-30)
+-------------------
+
+1.1.12 (2020-07-21)
+-------------------
+
+1.1.11 (2020-07-21)
+-------------------
+
+1.1.10 (2020-07-15)
+-------------------
+
+1.1.9 (2020-07-14)
+------------------
+
+1.1.8 (2020-07-13)
+------------------
+
+1.1.7 (2020-07-02)
+------------------
+
+1.1.6 (2020-06-29)
+------------------
+
+1.1.5 (2020-05-08)
+------------------
+
+1.1.4 (2020-05-06)
+------------------
+
+1.1.3 (2020-03-05)
+------------------
+
+1.1.2 (2020-01-14)
+------------------
+
+1.1.1 (2020-01-14)
+------------------
+
+1.1.0 (2020-01-10)
+------------------
+
+1.0.52 (2019-11-29)
+-------------------
+
+1.0.51 (2019-07-15)
+-------------------
+
+1.0.50 (2019-07-10)
+-------------------
+
+1.0.49 (2019-05-30)
+-------------------
+
+1.0.48 (2019-03-27)
+-------------------
+
+1.0.47 (2019-03-19)
+-------------------
+
+1.0.46 (2019-03-07)
+-------------------
+
 1.0.45 (2018-12-20)
 -------------------
 

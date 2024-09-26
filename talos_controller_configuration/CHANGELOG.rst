@@ -2,6 +2,319 @@
 Changelog for package talos_controller_configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.1 (2024-09-26)
+------------------
+* Merge branch 'migration_bugfix' into 'humble-devel'
+  Migration Bugfixing
+  See merge request robots/talos_robot!134
+* fix typo
+* Contributors: Sai Kishor Kothakota, sergiacosta
+
+2.0.0 (2024-09-18)
+------------------
+* Merge branch 'ros2-migration' into 'humble-devel'
+  Ros2 migration
+  See merge request robots/talos_robot!130
+* removed the default controllers from the bringup launch
+* remove the unused args
+* Change from the robot_utils to CommonArgs in launch_pal
+* Add both leg position controllers into the position_controllers launch
+* Update rest of the controller type parameters into the config files
+* update the configurations of the broadcasters
+* remove unnecessary non-existing controller launch and config
+* move the controller type to the config files for the position controllers
+* Comment out the non migrated dependencies
+* Cleanup some import and start the default controller from the start.
+* make sure the rate parameter is taken into account.
+* Update the plotjuggler view to include the joint state
+* Reduce the update_rate of the broadcasters
+* Update the plot_juggler session on sensors debugging
+* add the imu to ro2_control
+* [talos_controller_configuration] add all F/T broadcasters and the estimator parameters and launcher.
+* [talos_descirption] Try to add the force sensors at the feet
+* set default position controllers arg full_v2 model
+* remove default_controllers (position for now) from bringup controllers
+* remove leg position controllers frfom position_controllers.launch.py
+* fix jtc yaml files
+* update gripper mimic joint and sensors
+* clean launch files
+* remove python script
+* initialisation script added
+* conf files for sensors
+* bringup controllers
+* working version with default position controllers
+* fix force_torque_sensor controller name
+* migrate all the basic launch files
+* update all the config file for controller_configuration
+* Merge branch 'feat/ros2controlcli_dependency' into 'humble-devel'
+  Add ros2controlcli dependency
+  See merge request robots/talos_robot!129
+* Add ros2controlcli dependency
+* migration of CMakeLists.txt and package.xml to ros2 - controller_config.
+* Contributors: Jordan Palacios, Maximilien Naveau, Noel Jimenez, Sai Kishor Kothakota, ileniaperrella
+
+1.1.30 (2023-11-08)
+-------------------
+* Merge branch 'smooth_position_control' into 'erbium-devel'
+  Add parameters for direct_position_control
+  See merge request robots/talos_robot!125
+* Update limiter_max_rate parameters in direct position control
+* Add parameters for direct_position_control
+* Contributors: Adria Roig, Adrià Roig, Sai Kishor Kothakota
+
+1.1.29 (2023-10-24)
+-------------------
+* Merge branch 'reset_ft_offset' into 'erbium-devel'
+  Reset ankle FT offset also *before* starting default controller
+  See merge request robots/talos_robot!124
+* Merge branch 'change_license_to_apache' into 'erbium-devel'
+  change public license to Apache License 2.0
+  See merge request robots/talos_robot!126
+* change public license to Apache License 2.0
+* Reset ankle FT offset also *before* starting default controller
+* Contributors: Jordan Palacios, Pierre Fernbach, Sai Kishor Kothakota
+
+1.1.28 (2023-02-07)
+-------------------
+
+1.1.27 (2023-01-18)
+-------------------
+
+1.1.26 (2022-10-13)
+-------------------
+* Merge branch 'ft_zero_calibration' into 'erbium-devel'
+  Ft zero calibration
+  See merge request robots/talos_robot!117
+* Ft zero calibration
+* Contributors: Jordan Palacios, maximiliennaveau
+
+1.1.25 (2022-09-19)
+-------------------
+
+1.1.24 (2022-04-20)
+-------------------
+
+1.1.23 (2022-03-02)
+-------------------
+* Remove actuator parameters for flexibility joints from this package
+* Update stiffness value of hip flexibility to 4000 Nm
+* Add actuator params yaml files for the flexibility
+* Contributors: Pierre Fernbach
+
+1.1.22 (2022-02-22)
+-------------------
+* Fix wrong actuator parameters
+* Merge branch 'wrist_zero' into 'erbium-devel'
+  Add procedure to make to zero of the wrist FT sensors
+  See merge request robots/talos_robot!113
+* Add option to talos_initialisation script to make the zero set of the wrist FT
+* Contributors: Adria Roig, Jordan Palacios, Pierre Fernbach
+
+1.1.21 (2021-12-01)
+-------------------
+
+1.1.20 (2021-11-17)
+-------------------
+* Merge branch 'impedance_param_files' into 'erbium-devel'
+  Impedance param files
+  See merge request robots/talos_robot!109
+* added default parameters and specifics params file
+* added empty impedance parameter files
+* Contributors: Adria Roig, Sai Kishor Kothakota
+
+1.1.19 (2021-08-26)
+-------------------
+* Merge branch 'kangaroo_wbc' into 'erbium-devel'
+  Add ballscrew parameters in actuators params
+  See merge request robots/talos_robot!108
+* Add ballscrew parameters in actuators params
+* Contributors: Adria Roig, victor
+
+1.1.18 (2021-05-26)
+-------------------
+* Merge branch 'reset_ft_twice' into 'erbium-devel'
+  reset FTs twice before and after launching the default controllers
+  See merge request robots/talos_robot!107
+* reset FTs twice before and after launching the default controllers
+* Contributors: Sai Kishor Kothakota, saikishor
+
+1.1.17 (2021-03-05)
+-------------------
+
+1.1.16 (2020-11-13)
+-------------------
+
+1.1.15 (2020-08-01)
+-------------------
+* Merge branch 'talos6_final' into 'erbium-devel'
+  Talos6 final
+  See merge request robots/talos_robot!103
+* Update the new max_distance_impulse for elbow joints
+* update the max distance impulse after testing on TALOS-6 with full_v2
+* Contributors: Sai Kishor Kothakota, saikishor
+
+1.1.14 (2020-07-30)
+-------------------
+
+1.1.13 (2020-07-30)
+-------------------
+* Merge branch 'covers' into 'erbium-devel'
+  Increase safety after testing with covers
+  See merge request robots/talos_robot!102
+* Increase safety after testing with covers
+* Contributors: Adria Roig, victor
+
+1.1.12 (2020-07-21)
+-------------------
+* Merge branch 'initialisation_improvement' into 'erbium-devel'
+  Initialisation improvement
+  See merge request robots/talos_robot!99
+* fix the raw input message in talos initialization script
+* Added tts client to state the status of initialization
+* Contributors: Sai Kishor Kothakota, saikishor
+
+1.1.11 (2020-07-21)
+-------------------
+* Merge branch 'default_torques' into 'erbium-devel'
+  Default torques
+  See merge request robots/talos_robot!98
+* added the torque offsets that need to be overriden
+* Contributors: Adria Roig, Sai Kishor Kothakota
+
+1.1.10 (2020-07-15)
+-------------------
+* Merge branch 'max_impulse_tests' into 'erbium-devel'
+  Increase max_impulse_dist for some joints
+  See merge request robots/talos_robot!96
+* Increase max_impulse_dist for some joints
+* Contributors: Adria Roig, victor
+
+1.1.9 (2020-07-14)
+------------------
+
+1.1.8 (2020-07-13)
+------------------
+* Set temporal result so we can launch default controllers
+* Contributors: Jordan Palacios
+
+1.1.7 (2020-07-02)
+------------------
+* Merge branch '2KHz' into 'erbium-devel'
+  2 k hz
+  See merge request robots/talos_robot!94
+* Tune default safety_parameters
+* Set walking controller at 2KHz
+* added a way to disable safety for only a set of joints
+* Update default_safety_parameters.yaml
+* Reduce max impulse
+* Contributors: Adria Roig, Adrià Roig, Sai Kishor Kothakota, victor
+
+1.1.6 (2020-06-29)
+------------------
+* Merge branch 'init_script' into 'erbium-devel'
+  Initialisation script
+  See merge request robots/talos_robot!93
+* Redirect applications output to a log file
+* Use wait() for shell commands
+* Don't stop default controllers after starting them
+* Launch introspection controller too
+* Shell command stdin, stdout and stderr are None by default
+* Renamed result parameter
+* Fixed ati reset retcode usage
+* Using ros logging instead
+* Initialisation script
+* Contributors: Jordan Palacios, jordanpalacios
+
+1.1.5 (2020-05-08)
+------------------
+
+1.1.4 (2020-05-06)
+------------------
+
+1.1.3 (2020-03-05)
+------------------
+
+1.1.2 (2020-01-14)
+------------------
+* Merge branch 'more_refactor' into 'erbium-devel'
+  remove default safety info from specifics params
+  See merge request robots/talos_robot!84
+* remove default safety info from specifics params
+* Contributors: Sai Kishor Kothakota
+
+1.1.1 (2020-01-14)
+------------------
+* Merge branch 'specifics_refactor' into 'erbium-devel'
+  added changes to choose the specifics yamls
+  See merge request robots/talos_robot!82
+* Revert "added joints to control script"
+  This reverts commit a73220e081a42dcb94a5742feab0fba07c9944cc.
+* added joints to control script
+* renamed walking offsets yaml to walking_specific_params.yaml
+* added optenv based specific_file_path argument
+* added actuator_safety_specific_params file
+* added specific configuration of inertia shaping control
+* added changes to choose the specifics yamls
+* Contributors: Jordan Palacios, Sai Kishor Kothakota
+
+1.1.0 (2020-01-10)
+------------------
+
+1.0.52 (2019-11-29)
+-------------------
+
+1.0.51 (2019-07-15)
+-------------------
+* Merge branch 'stance_actuators_test' into 'erbium-devel'
+  changed definitiion of safety override
+  See merge request robots/talos_robot!75
+* changed definitiion of safety override
+* Contributors: Hilario Tome
+
+1.0.50 (2019-07-10)
+-------------------
+* Merge branch 'stance_actuators_test' into 'erbium-devel'
+  Stance actuators test
+  See merge request robots/talos_robot!74
+* standing test launches
+* Contributors: Hilario Tome
+
+1.0.49 (2019-05-30)
+-------------------
+* added head
+* Merge branch 'head_hal_differential' into 'erbium-devel'
+  added head config files
+  See merge request robots/talos_robot!72
+* added head config files
+* Contributors: Hilario Tome
+
+1.0.48 (2019-03-27)
+-------------------
+* Merge branch 'reenabled_safety' into 'erbium-devel'
+  reenabled safety
+  See merge request robots/talos_robot!71
+* reenabled safety
+* Contributors: Hilario Tome
+
+1.0.47 (2019-03-19)
+-------------------
+* Merge branch 'actuator_simulation' into 'erbium-devel'
+  working simulator with actuators and torque control on the lower body of talos
+  See merge request robots/talos_robot!70
+* added missing gripper actuator parameters
+* added missing actuator parameters:
+* working simulator with actuators and torque control on the lower body of talos
+* Contributors: Hilario Tome
+
+1.0.46 (2019-03-07)
+-------------------
+* Merge branch 'walk_pose' into 'erbium-devel'
+  Update walk pose params format
+  See merge request robots/talos_robot!69
+* Update walk pose params format
+* Change license to LGPL-3.0
+* Contributors: Adrià Roig, Hilario Tome, Victor Lopez
+
 1.0.45 (2018-12-20)
 -------------------
 * Merge branch 'move-dependencies' into 'erbium-devel'

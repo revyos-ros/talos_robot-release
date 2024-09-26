@@ -14,12 +14,13 @@
   <xacro:include filename="$(find talos_description_calibration)/urdf/deg_to_rad.xacro" />
 
   <!--Constant parameters-->
-  <xacro:property name="camera_position_x" value="0.066" />
-  <xacro:property name="camera_position_y" value="0.0" />
-  <xacro:property name="camera_position_z" value="0.1982" />
+  <xacro:property name="camera_position_x" value="0.0621" />
+  <xacro:property name="camera_position_y" value="0.0375" />
+  <xacro:property name="camera_position_z" value="0.1832" />
   <xacro:property name="camera_orientation_r" value="0.0" />
   <xacro:property name="camera_orientation_p" value="0.0" />
   <xacro:property name="camera_orientation_y" value="0.0" />
+
   <xacro:property name="arm_left_1_joint_offset" value="0.0" />
   <xacro:property name="arm_left_2_joint_offset" value="0.0" />
   <xacro:property name="arm_left_3_joint_offset" value="0.0" />
@@ -34,7 +35,41 @@
   <xacro:property name="arm_right_5_joint_offset" value="0.0" />
   <xacro:property name="arm_right_6_joint_offset" value="0.0" />
   <xacro:property name="arm_right_7_joint_offset" value="0.0" />
-  <xacro:property name="head_1_joint_offset" value="0.0" />
-  <xacro:property name="head_2_joint_offset" value="0.0" />
+
+  <xacro:property name="head_1_joint_x_offset"     value="0.0" />
+  <xacro:property name="head_1_joint_y_offset"     value="0.0" />
+  <xacro:property name="head_1_joint_z_offset"     value="0.0" />
+  <xacro:property name="head_1_joint_roll_offset"  value="0.0" />
+  <xacro:property name="head_1_joint_pitch_offset" value="0.0" />
+  <xacro:property name="head_1_joint_yaw_offset"   value="0.0" />
+
+  <xacro:property name="head_2_joint_x_offset"     value="0.0" />
+  <xacro:property name="head_2_joint_y_offset"     value="0.0" />
+  <xacro:property name="head_2_joint_z_offset"     value="0.0" />
+  <xacro:property name="head_2_joint_roll_offset"  value="0.0" />
+  <xacro:property name="head_2_joint_pitch_offset" value="0.0" />
+  <xacro:property name="head_2_joint_yaw_offset"   value="0.0" />
+
+  <xacro:property name="torso_1_joint_x_offset"     value="0.0" />
+  <xacro:property name="torso_1_joint_y_offset"     value="0.0" />
+  <xacro:property name="torso_1_joint_z_offset"     value="0.0" />
+  <xacro:property name="torso_1_joint_roll_offset"  value="0.0" />
+  <xacro:property name="torso_1_joint_pitch_offset" value="0.0" />
+  <xacro:property name="torso_1_joint_yaw_offset"   value="0.0" />
+
+  <xacro:property name="torso_2_joint_x_offset"     value="0.0" />
+  <xacro:property name="torso_2_joint_y_offset"     value="0.0" />
+  <xacro:property name="torso_2_joint_z_offset"     value="0.0" />
+  <xacro:property name="torso_2_joint_roll_offset"  value="0.0" />
+  <xacro:property name="torso_2_joint_pitch_offset" value="0.0" />
+  <xacro:property name="torso_2_joint_yaw_offset"   value="0.0" />
+
+  <xacro:property name="torso_imu_x_offset" value="0.0" />
+  <xacro:property name="torso_imu_y_offset" value="0.0" />
+  <xacro:property name="torso_imu_z_offset" value="0.0" />
+  <!-- Torso rpy offsets in degrees -->
+  <xacro:property name="torso_imu_roll_offset" value="0.0" />
+  <xacro:property name="torso_imu_pitch_offset" value="0.0" />
+  <xacro:property name="torso_imu_yaw_offset" value="0.0" />
 
 </robot>

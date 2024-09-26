@@ -60,31 +60,6 @@
       </plugin>
   </gazebo>
 
-<!--     <plugin filename="libgazebo_underactuated_finger.so" name="gazebo_${name}_underactuated">
-      <actuatedJoint>${name}_joint</actuatedJoint>
-      <virtualJoint>
-        <name>${name}_inner_double_joint</name>
-        <scale_factor>1.0</scale_factor>
-      </virtualJoint> -->
-<!--       <virtualJoint>
-        <name>${name}_fingertip_1_joint</name>
-        <scale_factor>-1.0</scale_factor>
-      </virtualJoint>
-      <virtualJoint>
-        <name>${name}_fingertip_2_joint</name>
-        <scale_factor>-1.0</scale_factor>
-      </virtualJoint>
-      <virtualJoint>
-        <name>${name}_motor_single_joint</name>
-        <scale_factor>1.0</scale_factor>
-      </virtualJoint>
-      <virtualJoint>
-        <name>${name}_fingertip_3_joint</name>
-        <scale_factor>-1.0</scale_factor>
-      </virtualJoint> -->
-<!--     </plugin> -->
-
-
   <gazebo reference="${name}_joint">
     <implicitSpringDamper>1</implicitSpringDamper>
     <provideFeedback>1</provideFeedback>
