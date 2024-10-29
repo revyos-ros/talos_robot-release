@@ -1,0 +1,12 @@
+Source: ros-humble-talos-bringup
+Section: misc
+Priority: optional
+Maintainer: Adria Roig <adria.roig@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-auto, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-talos-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-joy-linux, ros-humble-joy-teleop, ros-humble-play-motion2, ros-humble-talos-controller-configuration, ros-humble-talos-description, ros-humble-twist-mux, ros-humble-ros-workspace
+Description: The talos_bringup package
