@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>talos_bringup</name>
+  <version>2.0.1</version>
+  <description>The talos_bringup package</description>
+
+  <maintainer email="adria.roig@pal-robotics.com">Adria Roig</maintainer>
+  <maintainer email="ilenia.perrella@pal-robotics.com">Ilenia Perrella</maintainer>
+
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+ <!--
+  <run_depend>talos_moveit_config</run_depend>
+--> 
+  <exec_depend>talos_controller_configuration</exec_depend>
+  <exec_depend>talos_description</exec_depend>
+  <exec_depend>joy_linux</exec_depend>
+  <exec_depend>joy_teleop</exec_depend>
+  <exec_depend>twist_mux</exec_depend>
+  <exec_depend>play_motion2</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
