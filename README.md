@@ -1,3 +1,32 @@
+## talos_robot (humble) - 2.0.1-2
+
+The packages in the `talos_robot` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble talos_robot --override-release-repository-push-url git@github.com:revyos-ros/talos_robot-release.git` on `Tue, 29 Oct 2024 03:30:56 -0000`
+
+These packages were released:
+- `talos_bringup`
+- `talos_controller_configuration`
+- `talos_description`
+- `talos_description_calibration`
+- `talos_description_inertial`
+- `talos_robot`
+
+Version of package(s) in repository `talos_robot`:
+
+- upstream repository: https://github.com/pal-robotics/talos_robot.git
+- release repository: https://github.com/revyos-ros/talos_robot-release.git
+- rosdistro version: `2.0.1-1`
+- old version: `2.0.1-1`
+- new version: `2.0.1-2`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## talos_robot (humble) - 2.0.1-1
 
 The packages in the `talos_robot` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble talos_robot` on `Thu, 26 Sep 2024 10:02:31 -0000`
