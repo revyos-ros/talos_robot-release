@@ -1,0 +1,12 @@
+Source: ros-humble-talos-robot
+Section: misc
+Priority: optional
+Maintainer: Adria Roig <adria.roig@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-talos-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-talos-bringup, ros-humble-talos-controller-configuration, ros-humble-talos-description, ros-humble-talos-description-calibration, ros-humble-ros-workspace
+Description: Description and launch files for the TOR robot
