@@ -1,0 +1,12 @@
+Source: ros-humble-talos-description
+Section: misc
+Priority: optional
+Maintainer: Adria Roig <adria.roig@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-auto, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-launch-testing-ament-cmake <!nocheck>, ros-humble-urdf-test <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-talos-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-launch, ros-humble-launch-pal, ros-humble-launch-param-builder, ros-humble-launch-ros, ros-humble-talos-controller-configuration, ros-humble-talos-description-calibration, ros-humble-talos-description-inertial, ros-humble-xacro, ros-humble-ros-workspace
+Description: The talos_description package
